@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <form action="" id="form">
+        <h3>log in</h3>
+        <label for="user">username</label><br>
+        <div class="email">
+            <label for="user"><i class="fas fa-user"></i></label>
+            <input type="email" id="user" placeholder="email" required>
+            <span id="text" style="font-size:12px;"></span>
+        </div>
+        <label for="pass">password</label><br>
+        <div class="password">
+            <label for="pass"><i class="fas fa-lock"></i></label>
+            <input type="password" id="pass" value="" placeholder="password">
+            <i class="fas fa-eye"></i>
+            <span id="notipass"></span>
+        </div>
+        <input type="checkbox" id="remember"><label for="remember">remember me</label><br>
+        <button id="login">log in</button><br>
+        <button id="forgot">forgot password</button>
+    </form>
+    <script src="java.js"></script>
+</body>
+
+</html>

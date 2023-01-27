@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url(pexels-suvan-chowdhury-144429.jpg);
+    user-select: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    width: 240px;
+    margin: 100px auto;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0),inset 0px 0px 20px rgba(61, 61, 61, 0.671);
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    background: linear-gradient(to top,rgba(0, 0, 255, 0.671),rgba(255, 0, 221, 0.315));
+    h3{
+        color: rgb(231, 231, 231);
+        text-transform: uppercase;
+        text-align: center;
+        margin: 15px;
+    }
+    label{
+        color: rgb(231, 231, 231);
+        font-size: 12px;
+        text-transform: capitalize;
+        display: inline;
+        letter-spacing: 1.50px;
+    }
+    #text{
+        display: inline-block;
+        color: whitesmoke;
+        font-weight: 300;
+        font-style: italic;
+        padding: 3px;
+        font-size: 14px;
+        }
+}
+.email{
+    margin: 5px 0px;
+    margin-bottom: 5px;
+    label{
+           padding: 7px 8px;
+           border-radius: 50%;
+           background-color: rgba(197, 70, 112, 0.76);
+             margin: 5px;
+           text-align: center;
+           i{
+              padding-left: 1px ;
+           }
+    }
+    input{
+        padding: 6px;
+        border-radius: 15px;
+        width: 160px;
+        border: none;
+        outline: none;
+        box-shadow:inset 0px 0px 3px rgb(97, 97, 97),0px 0px 3px rgb(19, 19, 19);
+        padding-left: 15px;
+        background-color: rgba(255, 255, 255, 0.452);
+    caret-color: rgb(0, 255, 221);
+         color: whitesmoke;
+
+    }
+}
+.password{
+    margin: 5px 0px;
+    margin-bottom: 15px;
+    position: relative;
+    label{
+           padding: 7px 8px;
+           border-radius: 50%;
+           background-color: rgba(197, 70, 112, 0.795);
+           box-shadow:inset 0px 0px 3px rgb(161, 161, 161),0px 0px 3px rgb(78, 78, 78);
+           margin: 5px;
+           i{
+            padding-left: 1px ;
+         }
+    }
+    
+    input{
+        padding: 6px;
+        border-radius: 15px;
+        width: 160px;
+        border: none;
+        outline: none;
+        box-shadow:inset 0px 0px 3px rgb
+        (97, 97, 97),0px 0px 3px rgb(19, 19, 19);
+        padding-left: 15px;
+        background-color: rgba(255, 255, 255, 0.452);
+    caret-color: rgb(0, 255, 255);
+    color: white;
+    }
+    .fa-eye{
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        color: whitesmoke;
+    }
+}
+
+#remember{
+margin: 0px 3px;
+}
+#login{
+    width: 180px;
+    padding: 7px 10px;
+    margin:5px 10px;
+    margin-bottom: 15px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background: rgba(0, 153, 255, 0.596);
+    color: white;
+    box-shadow:inset 0px 0px 3px rgb(182, 182, 182),0px 0px 10px rgb(0, 0, 0);
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+#forgot{
+    border: none;
+    color: whitesmoke;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+::placeholder{
+    color: rgb(238, 238, 238);
+}
