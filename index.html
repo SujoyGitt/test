@@ -17,18 +17,23 @@
         <label for="user">username</label><br>
         <div class="email">
             <label for="user"><i class="fas fa-user"></i></label>
-            <input type="email" id="user" placeholder="email" required>
+            <input type="email" id="user" placeholder="email" >
             <span id="text" style="font-size:12px;"></span>
         </div>
         <label for="pass">password</label><br>
         <div class="password">
             <label for="pass"><i class="fas fa-lock"></i></label>
             <input type="password" id="pass" value="" placeholder="password">
-            <i class="fas fa-eye"></i>
+            <i class="fas fa-eye openeye"></i><br>
+            <!-- <i class="fas fa-eye-slash"></i> -->
             <span id="notipass"></span>
         </div>
         <input type="checkbox" id="remember"><label for="remember">remember me</label><br>
-        <button id="login">log in</button><br>
+        <div class="btnparent">
+            <div class="btnarea"></div>
+            <button id="login">log in</button>
+        </div>
+        <br>
         <button id="forgot">forgot password</button>
     </form>
     <script src="java.js"></script>
